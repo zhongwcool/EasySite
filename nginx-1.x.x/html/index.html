@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>Welcome to nginx!</title>
+    <style>
+        html {
+            color-scheme: light dark;
+        }
+
+        body {
+            width: 35em;
+            margin: 0 auto;
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+    working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+    <a href="http://nginx.org/">nginx.org</a>.<br/>
+    Commercial support is available at
+    <a href="http://nginx.com/">nginx.com</a>.
+</p>
+
+<p><form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="files" multiple id="fileInput" />
+        <input type="button" value="上传文件" onclick="uploadFiles()" />
+    </form>
+    <div id="fileList"></div>
+    <div id="progress"></div>
+
+<p><a href="/files/cfa-2.5.12-premium-universal-release.apk">cfa-2.5.12-premium-universal-release.apk</a></p>
+
+<p><em>Thank you for using nginx.</em></p>
+
+<script src="js/upload.js"></script>
+</body>
+</html>
